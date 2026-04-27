@@ -349,7 +349,7 @@ span {
 .lights-arrow-wrapper {
     display: flex;
     position: relative;
-    margin-top: 88px;
+    margin-top: clamp(2.4rem, 2.8rem + 2.5vh, 8.8rem);
     align-self: flex-start;
 }
 
