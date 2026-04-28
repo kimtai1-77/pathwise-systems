@@ -1026,6 +1026,11 @@ span {
     background-color: var(--nt-50);
 }
 
+.evidence-lightbox-content h2 {
+    margin-bottom: 0;
+}
+
+
 .evidence-lightbox-content .evidence-cont {
     display: flex;
     flex-direction: column;
@@ -1085,7 +1090,7 @@ span {
 
     .evidence-lightbox-content {
         padding: 1.6rem;
-        gap: 2rem;
+        gap: 9.6rem;
     }
 
     .evidence-lightbox-close {
@@ -1113,6 +1118,7 @@ span {
 
     .evidence-lightbox-content {
         padding: 1.2rem;
+        gap: 6rem;
     }
 
     .evidence-lightbox-close {
@@ -1303,7 +1309,6 @@ span {
         gap: 0.8rem;
         height: auto;
         padding: 0;
-        align-items: flex-start;
     }
 
     .evidence-kvp.solution {
