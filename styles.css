@@ -728,7 +728,7 @@ span {
 .evidence-kvp {
     display: grid;
     grid-template-columns: 132px 1fr;
-    align-items: flex-start;
+    align-items: center;
     gap: 2rem;
     padding: 0 1rem;
 }
@@ -819,10 +819,8 @@ span {
     flex: 1;
 }
 
-.description.value {
-    font-weight: 400;
-    color: var(--nt-050);
-    line-height: 1.7;
+.description.user-state {
+    margin-bottom: 4rem;
 }
 
 .evidence-kvp.value .description {
