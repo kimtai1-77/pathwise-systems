@@ -1879,6 +1879,11 @@ span {
 }
 
 @media (max-width: 580px) {
+    .logo {
+        width: auto;
+        height: 3.2rem;
+    }
+    
     .hero-img-four {
         max-width: 120px;
         right: 120px
