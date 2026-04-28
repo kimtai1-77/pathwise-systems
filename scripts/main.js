@@ -150,8 +150,8 @@ function imageSlide() {
     
     // Configuration
     const BREAKPOINT = 768;  // Mobile to desktop breakpoint
-    const INITIAL_OFFSET = 10;  // How far off-screen to the right (in %)
-    const SLIDE_DISTANCE = 20;  // How far the image should slide in (in %)
+    const INITIAL_OFFSET = 20;  // How far off-screen to the right (in %)
+    const SLIDE_DISTANCE = 18;  // How far the image should slide in (in %)
     
     let isDesktop = window.innerWidth >= BREAKPOINT;
     
