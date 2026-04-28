@@ -922,7 +922,7 @@ span {
 .benefits-img-cont {
     display: flex;
     align-items: center;
-    justify-content: center;
+    /*justify-content: center;*/
     width: 70%;
     height: auto;
     min-height: 280px;
@@ -931,7 +931,7 @@ span {
 }
 
 .benefits-img {
-    width: 80%;
+    width: 90%;
     height: 100%;
     object-fit: contain;
     object-position: center;
@@ -1682,11 +1682,11 @@ span {
 .footer-about .footer-logo {
     width: 100%;
     max-width: 160px;
-    margin-bottom: 0.8rem;
+    margin: 2rem 0 0.8rem;
 }
 
 .footer-about .footer-logo img {
-    width: 100%;
+    width: 60%;
     height: auto;
     max-height: 48px;
 }
@@ -1784,6 +1784,12 @@ span {
     }
 }
 
+@media (max-width: 580px) {
+    .footer-about .footer-logo img {
+        width: 50%;
+    }
+}
+
 
 /* ========================================
    === CONSOLIDATED MEDIA QUERIES ===
@@ -1856,7 +1862,7 @@ span {
     }
 
     .section-content {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: flex-start;
         gap: clamp(1.6rem, 2.4rem, 2.8rem);
     }
@@ -1869,11 +1875,6 @@ span {
      .benefits-img-cont {
         width: 100%;
         min-height: 200px;
-    }
-
-     .benefits-img {
-        width: 70%;
-        height: auto;
     }
 }
 
@@ -1913,6 +1914,11 @@ span {
 
     .evidence-heading {
         margin: 3rem 0 1.2rem;
+    }
+
+    .benefits-img {
+        width: 100%;
+        height: auto;
     }
 }
 
